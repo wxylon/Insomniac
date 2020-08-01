@@ -27,7 +27,7 @@ from src.utils import *
 device_id = None
 sessions = PersistentList("sessions", SessionStateEncoder)
 
-
+##
 def main():
     random.seed()
     colorama.init()
